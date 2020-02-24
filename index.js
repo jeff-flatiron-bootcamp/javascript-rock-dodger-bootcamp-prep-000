@@ -155,16 +155,23 @@ function moveDodger(e) {
    * we've declared for you above.)
    * And be sure to use the functions declared below!
    */
+<<<<<<< HEAD
    if(e.which === LEFT_ARROW)
    {
     window.requestAnimationFrame(moveDodgerLeft);
     moveDodgerLeft();
     e.preventDefault();
     e.stopPropagation();
+=======
+   if(e.which == LEFT_ARROW)
+   {
+    window.requestAnimationFrame(moveDodgerLeft);
+>>>>>>> 3890c7b8193671a0f70ad2c69e81be666a209b47
    }
    else if (e.which === RIGHT_ARROW)
    {
      window.requestAnimationFrame(moveDodgerRight);
+<<<<<<< HEAD
      moveDodgerRight();
      e.preventDefault();
      e.stopPropagation();
@@ -172,6 +179,8 @@ function moveDodger(e) {
    else if(e.which !== LEFT_ARROW && e.which !== RIGHT_ARROW)
    {
     
+=======
+>>>>>>> 3890c7b8193671a0f70ad2c69e81be666a209b47
    }
 }
 
